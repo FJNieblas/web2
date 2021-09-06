@@ -6,6 +6,7 @@ console.log(saludar("Geovany"));
 
 //------------------------------------
 
+//prueba para git
 
 /*declare function crear(o: object): void;
 
