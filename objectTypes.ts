@@ -273,4 +273,4 @@ type Auto2 = readonly [string, number];
 const prius3: Auto2 = ["Toyota", 2014];
 
 //prius3[0] = 'Honda'; <-- Esta línea generaría un error
-
+//----
