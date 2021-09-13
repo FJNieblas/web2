@@ -10,7 +10,7 @@ console.log(longitud([1, 2, 3, 4, 5]));
 //---------------------------------------------
 console.log();
 console.log();
-//-------
+//----------
 function calcularLongitud(x: any[] | string) {
     return x.length;
 }

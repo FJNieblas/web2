@@ -3,22 +3,22 @@ function saludar5(persona) {
 }
 console.log(saludar5({ nombre: "Luis", edad: 22 }));
 console.log();
-function saludar2(persona) {
+function saludar22(persona) {
     return "Hola " + persona.nombre;
 }
-console.log(saludar2({ nombre: "Elena", edad: 25 }));
+console.log(saludar22({ nombre: "Elena", edad: 25 }));
 console.log();
-function saludar3(persona) {
+function saludar33(persona) {
     return "Hola " + persona.nombre;
 }
-console.log(saludar3({ nombre: "Anabel", edad: 30 }));
+console.log(saludar33({ nombre: "Anabel", edad: 30 }));
 console.log();
-function imprimir(computador) {
+function imprimir2(computador) {
     console.log("Sistema Operativo: " + computador.os);
     console.log("Memmoria: " + computador.memoria);
     console.log("Procesador: " + computador.procesador);
 }
-imprimir({
+imprimir2({
     os: 'windows',
     memoria: 8,
     procesador: 'intel'

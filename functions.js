@@ -4,7 +4,7 @@ function saludar2() {
 }
 saludar2();
 console.log();
-//------------------------------------
+//-----------------------------------------
 function saludar3(nombre) {
     console.log("Hola " + nombre);
 }

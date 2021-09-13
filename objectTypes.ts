@@ -10,11 +10,11 @@ interface Persona{
     edad: number;
 }
 
-function saludar2(persona: Persona){
+function saludar22(persona: Persona){
     return `Hola ${persona.nombre}`;
 }
 
-console.log(saludar2({ nombre: "Elena", edad: 25}));
+console.log(saludar22({ nombre: "Elena", edad: 25}));
 console.log();
 
 type Persona2 = {
@@ -22,11 +22,11 @@ type Persona2 = {
     edad: number;
 }
 
-function saludar3(persona: Persona2){
+function saludar33(persona: Persona2){
     return `Hola ${persona.nombre}`;
 }
 
-console.log(saludar3({nombre: "Anabel", edad: 30}));
+console.log(saludar33({nombre: "Anabel", edad: 30}));
 console.log();
 
 //---------------------------------------------------------------------
@@ -40,13 +40,13 @@ interface Computadora {
     procesador: 'intel' | 'amd';
 }
 
-function imprimir(computador: Computadora){
+function imprimir2(computador: Computadora){
     console.log(`Sistema Operativo: ${computador.os}`);
     console.log(`Memmoria: ${computador.memoria}`);
     console.log(`Procesador: ${computador.procesador}`);
 }
 
-imprimir({
+imprimir2({
     os: 'windows',
     memoria: 8,
     procesador: 'intel',
