@@ -3,7 +3,7 @@ function longitud(x) {
 }
 console.log(longitud("Hola Mundo"));
 console.log(longitud([1, 2, 3, 4, 5]));
-//---------------------------------------------
+//------------------------------------------------
 console.log();
 console.log();
 //----------
