@@ -90,14 +90,14 @@ function f(n: number) {
     console.log(n.toFixed(3)); //se especifica un argumento
 }
 
-function f2(n?: number){
+/*function f2(n?: number){
     //...
 }
 
 function f3(n = 10){
     //...
-}
-
+}*/
+//--
 //PARÁMETROS OPCIONALES EN LOS CALLBACKS
 
 function miIterador(arr: any[], callback: (arg: any, index?: number) => void) {
