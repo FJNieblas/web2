@@ -107,3 +107,4 @@ console.log("El modelo del prius es: ", modelo);
 var a = ["a", 1, true, false, true];
 var prius3 = ["Toyota", 2014];
 //prius3[0] = 'Honda'; <-- Esta línea generaría un error
+//----

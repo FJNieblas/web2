@@ -76,7 +76,7 @@ function f(n) {
 function f3(n = 10){
     //...
 }*/
-//----
+//------
 //PARÁMETROS OPCIONALES EN LOS CALLBACKS
 function miIterador(arr, callback) {
     for (var i = 0; i <= arr.length; i++) {
