@@ -1,8 +1,8 @@
-function saludar(persona: {nombre: string; edad: number}) {
+function saludar5(persona: {nombre: string; edad: number}) {
     return `Hola ${persona.nombre}`;
 }
 
-console.log(saludar({nombre: "Luis", edad: 22}));
+console.log(saludar5({nombre: "Luis", edad: 22}));
 console.log();
 
 interface Persona{
@@ -79,6 +79,7 @@ interface EdadNoEscribible {
 
 const Luis: Persona3 = { edad: 20 };
 const Pedro: EdadNoEscribible = Luis;
+
 
 Luis.edad++;
 //Pedro.edad++;

@@ -1,7 +1,7 @@
-function saludar(persona) {
+function saludar5(persona) {
     return "Hola " + persona.nombre;
 }
-console.log(saludar({ nombre: "Luis", edad: 22 }));
+console.log(saludar5({ nombre: "Luis", edad: 22 }));
 console.log();
 function saludar2(persona) {
     return "Hola " + persona.nombre;

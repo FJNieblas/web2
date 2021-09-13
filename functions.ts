@@ -97,7 +97,7 @@ function f(n: number) {
 function f3(n = 10){
     //...
 }*/
-//--
+//----
 //PARÁMETROS OPCIONALES EN LOS CALLBACKS
 
 function miIterador(arr: any[], callback: (arg: any, index?: number) => void) {

@@ -69,13 +69,14 @@ function f(n) {
     console.log(n.toFixed()); //no se especifican argumentos
     console.log(n.toFixed(3)); //se especifica un argumento
 }
-function f2(n) {
+/*function f2(n?: number){
     //...
 }
-function f3(n) {
-    if (n === void 0) { n = 10; }
+
+function f3(n = 10){
     //...
-}
+}*/
+//----
 //PARÁMETROS OPCIONALES EN LOS CALLBACKS
 function miIterador(arr, callback) {
     for (var i = 0; i <= arr.length; i++) {
