@@ -6,7 +6,6 @@ console.log(saludar("Geovany"));
 
 //------------------------------------
 
-//prueba para git
 
 /*declare function crear(o: object): void;
 
@@ -17,8 +16,6 @@ crear([]);
 */
 //false es un tipo primitivo, por lo cual se generará un error
 //crear(false);
-
-//------------------------------------
 
 
 

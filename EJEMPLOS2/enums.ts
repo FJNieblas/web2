@@ -7,6 +7,4 @@ enum marcasDeAutos {
 let tacoma: marcasDeAutos = marcasDeAutos.Toyota;
 
 console.log(tacoma);
-console.log(marcasDeAutos[0]);
-
-//prueba git 22
+//console.log(marcasDeAutos[0]);
