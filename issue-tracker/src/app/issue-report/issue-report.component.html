@@ -36,6 +36,18 @@
       Type is required
     </clr-control-error>
   </clr-select-container>
+  <div class="clr-row" *ngIf="suggestions.length">
+    <div class="clr-col-lg-2"></div>
+    <div class="clr-col-lg-6">
+       <clr-stack-view>
+         <clr-stack-header>Similar Issues</clr-stack-header>
+         <clr-stack-block *ngFor="let issue of suggestions">
+           <clr-stack-label>#{{issue.issueNo}}: {{issue.title}}</clr-stack-label>
+           <clr-stack-content>{{issue.description}}</clr-stack-content>
+         </clr-stack-block>
+       </clr-stack-view>
+    </div>
+  </div>
   <button class="btn btn-primary" type="submit">
     Create
   </button>
