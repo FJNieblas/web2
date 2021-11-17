@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "start:desktop":
-      "concurrently \"ng build --delete     output-path = false --watch\" \"webpack--watch\""
+    "concurrently \"ng build --delete     output-path=false --watch\" \"webpack--watch\""
   },
   "private": true,
   "dependencies": {
